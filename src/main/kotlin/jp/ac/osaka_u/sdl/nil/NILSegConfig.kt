@@ -17,8 +17,8 @@ data class NILSegConfig(
 
 fun parseSegArgs(args: Array<String>): NILSegConfig {
     var src: File? = null
-    var minLine = 6
-    var minToken = 50
+    var minLine = 3
+    var minToken = 10
     var gramSize = 5
     var partitionNum = 10
     var outputFileName: String? = null
